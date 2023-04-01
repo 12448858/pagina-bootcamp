@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="estyle.css">
+    <title>SEMI MOTO</title>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="container-logo">
+                <i class="fa-regular fa-circle-dot"></i>
+                <h1>SEMI MOTO</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#">Dportivas</a></li>
+                    <li><a href="#">Adventure</a></li>
+                    <li><a href="#">Urbanas</a></li>
+                    <li><a href="#">Cafe racer</a></li>
+                    <li><a href="#">De trabajo</a></li>
+                </ul>
+            </nav>
+            <div class="busqueda">
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <input type="text" placeholder="Buscar">
+            </div>
+        </header>
+
+        
+        <div class="informacion">
+            <div class="fila">
+               
+                <div class="col">
+                    <h2 id="nombre">Consigue <br> tu moto</h2>
+                    <p id="descripcion">
+                        Las mejores motos seminuevas.
+                    <span id="precio"></span>
+                    <button>
+                        Inicia sesion con nosotros
+                        <i class="fa-solid fa-circle-chevron-right"></i>
+                    </button>
+                </div>
+
+                <!-- Columna Central -->
+                <div class="col">
+                    <div class="circulo-principal" id="circulo">
+                        <img src="" alt="" id="dr">
+                    </div>
+                </div>
+
+                <!-- Columna derecha -->
+                <div class="col ingredientes">
+                    <ul id="ingredientes">
+                        <li>
+                            <i class="fa-solid fa-check"></i>
+                            MODELOS DISPONIBLES
+                        </li>
+                        <li>
+                            <i class="fa-solid fa-check"></i>
+                            BMW GS 1250R
+                        </li>
+                        <li>
+                            <i class="fa-solid fa-check"></i>
+                            BMW F900R
+                        </li>
+                        <li>
+                            <i class="fa-solid fa-check"></i>
+                            HARLEY DAVIDSON Sportate 850
+                        </li>
+                        <li>
+                            <i class="fa-solid fa-check"></i>
+                            Ducati Panigale V4s
+                        </li>
+                        <li>
+                            <i class="fa-solid fa-check"></i>
+                            
+                        </li>
+                        <li>
+                            <i class="fa-solid fa-check"></i>
+                            
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="rectangulo">
+            <div class="opcion" onclick="cargar(1)">
+                <div class="circulo color1">
+                    <img src="bmw 1250.jpg" alt="">
+                    <div class="puntuacion">
+                        4.9 <i class="fa-solid fa-star"></i>
+                    </div>
+                </div>
+                <h3>BMW 1250R</h3>
+                <a href="#">509,374.00MXN </a>
+            </div>
+            <div class="opcion" onclick="cargar(2)">
+                <div class="circulo color2">
+                    <img src="F900XR.jpg" alt="">
+                    <div class="puntuacion">
+                        4.9 <i class="fa-solid fa-star"></i>
+                    </div>
+                </div>
+                <h3>BMW F900R</h3>
+                <a href="#">Desde:356,687.00MXN </a>
+            </div>
+            <div class="opcion" onclick="cargar(3)">
+                <div class="circulo color3">
+                    <img src="hd883.jpg" alt="">
+                    <div class="puntuacion">
+                        4.9 <i class="fa-solid fa-star"></i>
+                    </div>
+                </div>
+                <h3>HD Iron 883</h3>
+                <a href="#">Desde:489,578.00MXN </a>
+            </div>
+            <div class="opcion" onclick="cargar(4)">
+                <div class="circulo color4">
+                    <img src="v4s.webp" alt="">
+                    <div class="puntuacion">
+                        4.9 <i class="fa-solid fa-star"></i>
+                    </div>
+                </div>
+                <h3>Ducati panigale V4s</h3>
+                <a href="#">Desde;689,509.00MXN </a>
+            </div>
+        </div>
+    </div>
+<script src="script.js"></script>
+</body>
+</html>
+<footer>
+    <form>
+        <div class="mb-3">
+          <label for="exampleInputEmail1" class="form-label">Email </label>
+          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+          <div id="emailHelp" class="form-text"></div>
+        </div>
+        <div class="mb-3">
+          <label for="exampleInputPassword1" class="form-label">contraseña</label>
+          <input type="password" class="form-control" id="exampleInputPassword1">
+        </div>
+        <div class="mb-3 form-check">
+          <input type="checkbox" class="form-check-input" id="exampleCheck1">
+          <label class="form-check-label" for="exampleCheck1">recordar</label>
+        </div>
+        <button type="submit" class="btn btn-primary">aceptar</button>
+      </form>
+</footer>
